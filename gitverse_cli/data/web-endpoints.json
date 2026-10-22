@@ -1,0 +1,1206 @@
+{
+  "captured_at": "2026-10-19",
+  "note": "Static frontend candidates, not an assertion of successful invocation",
+  "endpoints": [
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/attachments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/attachments/limits",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/ai/attachments/{attachment_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/attachments/{attachment_id}/content",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/capabilities",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/chat/messages/{message_id}/rating",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/chat/runs/{run_id}/cancel",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/chat/sessions",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/ai/chat/sessions/{session_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/chat/sessions/{session_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/chat/settings",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/ai/chat/settings",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/chat/skills",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/diagnostics/explain",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2-mtgo4-p4vzb.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/models",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/repositories",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/commands",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/ai/sessions/{session_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/abort",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/capabilities",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/commands",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/diff",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/events",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/files",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/messages",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/permissions/{request_id}/reply",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/questions/{request_id}/reject",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/questions/{request_id}/reply",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/repositories",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/summarize",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/workspace/file-statuses",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/workspace/files",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/workspace/previews",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/ai/sessions/{session_id}/workspace/requests/{request_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/workspace/requests/{request_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/workspace/requests/{request_id}/content",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/sessions/{session_id}/workspace/searches",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/sessions/{session_id}/workspace/tree",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/task-to-pr/sessions",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/ai/task-to-pr/sessions/{session_id}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/ai/task-to-pr/sessions/{session_id}/cancel",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/bi",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3cmvk555381eu.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/cdes",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0vviah9nphfxx.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/cdes/{cdeId}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0vviah9nphfxx.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/cdes/{cdeId}/actions/resume",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0vviah9nphfxx.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/cdes/{cdeId}/actions/suspend",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0vviah9nphfxx.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/explore/orgs",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/license/templates",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3jer5lfc3rtti.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/notifications/count",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2puubhfeycmx9.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/notifications/read",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2puubhfeycmx9.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/notifications/status",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2puubhfeycmx9.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/other/bots",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0daew_7qqdj23.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/other/configurations",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3tbr62r-_cn6u.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/other/gitverse-onprem/licenses",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3cmvk555381eu.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/other/services",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2puubhfeycmx9.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/search",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/action/{action}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3jer5lfc3rtti.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/actions/runs/{run_id}/jobs/{job_id}/logs",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2-mtgo4-p4vzb.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/actions/runs/{run_id}/jobs/{job_id}/rerun",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2-mtgo4-p4vzb.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/actions/runs/{run_id}/jobs/{job_id}/steps/{step}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2-mtgo4-p4vzb.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/branches",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3jer5lfc3rtti.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/branches/pinned",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0daew_7qqdj23.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/branches/upstream/{branchName}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/050kc52z91c31.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/repos/{ownerName}/{repoName}/branches/{branchName}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0daew_7qqdj23.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/commits/{sha}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/21nxgjclh_ec2.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/commits/{sha}/diff",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/27psh2lv9cd2f.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/commits/{sha}/preview",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3cmvk555381eu.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/compare/diff",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/27psh2lv9cd2f.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/excerpt/{sha}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/011ys-5v_dnc4.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/issues/assignees",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/attachments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/011ys-5v_dnc4.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/repos/{ownerName}/{repoName}/pulls/attachments/{fileId}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/011ys-5v_dnc4.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/reviewers",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/21j10j-19_5q-.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/reviewers/teams/{teamId}/members",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/21j10j-19_5q-.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{index}/comments/last-modified",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0fb2g1-xpt41_.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{index}/comments/{commentId}/attachments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0fb2g1-xpt41_.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0870a5cnyi3a1.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0fb2g1-xpt41_.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments/{commentId}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PUT",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments/{commentId}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments/{commentId}/history",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments/{commentId}/reactions/{action}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/comments/{commentId}/resolve",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/diff",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/27psh2lv9cd2f.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/files/reviews/comments",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2676jwkf2jesl.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/files/reviews/dismiss",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/160i2fcj45t1b.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/files/reviews/submit",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/160i2fcj45t1b.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PUT",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/linked-units",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/21j10j-19_5q-.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/lock",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0870a5cnyi3a1.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/merge",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0fb2g1-xpt41_.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/preview",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3cmvk555381eu.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/reviewer",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/21j10j-19_5q-.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/reviewers/teams/{teamId}/members",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/21j10j-19_5q-.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/subscribe",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/160i2fcj45t1b.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PUT",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/title",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0870a5cnyi3a1.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/unlock",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0870a5cnyi3a1.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/repos/{ownerName}/{repoName}/pulls/{number}/viewed-files",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/27psh2lv9cd2f.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/settings",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/settings/pr_agent",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0daew_7qqdj23.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/settings/pulls",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/settings/security/secret-policy",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/02zn5t1ypctc0.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PATCH",
+      "path": "/repos/{ownerName}/{repoName}/settings/task_to_pr",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2zwoeggajjyxa.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/tree-list/branch/{branchName}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3jer5lfc3rtti.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/tree-list/commit/{sha}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3jer5lfc3rtti.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/repos/{ownerName}/{repoName}/tree-list/tag/{tagName}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3jer5lfc3rtti.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/support",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/3tbr62r-_cn6u.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/user",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0870a5cnyi3a1.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/user/pulls/filtered",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/26431-papx30j.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "DELETE",
+      "path": "/user/settings/gitTokens/{cdeId}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0vviah9nphfxx.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "PUT",
+      "path": "/user/settings/gitTokens/{cdeId}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/0vviah9nphfxx.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/users/search",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/2puubhfeycmx9.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/users/{username}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/358sdic47_9h5.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "GET",
+      "path": "/users/{username}/orgs",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/358sdic47_9h5.js"
+      },
+      "verification": "static_only"
+    },
+    {
+      "backend": "web",
+      "method": "POST",
+      "path": "/users/{username}/{action}",
+      "evidence": {
+        "type": "frontend_bundle",
+        "url": "https://gitverse.ru/_next/static/chunks/358sdic47_9h5.js"
+      },
+      "verification": "static_only"
+    }
+  ]
+}

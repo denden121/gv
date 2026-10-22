@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitverse-agent-cli"
+version = "0.27.0"
+description = "GitVerse CLI for agents: pull requests, reviews, API discovery and traffic analysis"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "denden121"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+gv = "gitverse_cli.cli:main"
+
+[tool.setuptools.package-data]
+gitverse_cli = ["data/*.json", "data/OPENAPI-LICENSE"]
+
+[tool.setuptools.packages.find]
+include = ["gitverse_cli*"]
+
+[project.urls]
+Homepage = "https://github.com/denden121/gv"
+Repository = "https://github.com/denden121/gv"
+Issues = "https://github.com/denden121/gv/issues"
